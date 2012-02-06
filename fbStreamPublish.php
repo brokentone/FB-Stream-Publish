@@ -1,7 +1,4 @@
 <?php
-
-error_reporting(-1);
-
 class fbStreamPublish {
 	private $pubUrl,$appId,$appSecret,$authToken;
 	public function __construct($pubUrl, $appId, $appSecret) {
